@@ -1,0 +1,14 @@
+/home/bruno/Projetos/dotnet-studies/bin/Debug/netcoreapp2.2/dotnet-studies.deps.json
+/home/bruno/Projetos/dotnet-studies/bin/Debug/netcoreapp2.2/dotnet-studies.runtimeconfig.json
+/home/bruno/Projetos/dotnet-studies/bin/Debug/netcoreapp2.2/dotnet-studies.runtimeconfig.dev.json
+/home/bruno/Projetos/dotnet-studies/bin/Debug/netcoreapp2.2/dotnet-studies.dll
+/home/bruno/Projetos/dotnet-studies/bin/Debug/netcoreapp2.2/dotnet-studies.pdb
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.csprojAssemblyReference.cache
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.csproj.CoreCompileInputs.cache
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.RazorAssemblyInfo.cache
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.RazorAssemblyInfo.cs
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.AssemblyInfoInputs.cache
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.AssemblyInfo.cs
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.RazorTargetAssemblyInfo.cache
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.dll
+/home/bruno/Projetos/dotnet-studies/obj/Debug/netcoreapp2.2/dotnet-studies.pdb
