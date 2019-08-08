@@ -50,5 +50,20 @@ namespace dotnet_studies.Controllers
 
             return CreatedAtAction(nameof(GetTodoItem), new { id = item.Id }, item);
         }
+
+        // PUT: api/todo/{id}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutTodoItem(long id, TodoItem item)
+        {
+            if (id != item.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(item).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
