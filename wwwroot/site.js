@@ -1,4 +1,4 @@
-const uri = 'api/todo'
+const url = 'api/todo'
 let todos = null
 function getCount(data) {
   const el = $('#counter')
@@ -20,7 +20,7 @@ $(document).ready(function() {
 function getData() {
   $.ajax({
     type: 'GET',
-    url: uri,
+    url: url,
     cache: false,
     success: function(data) {
       const tBody = $('#todos')
@@ -73,7 +73,7 @@ function addItem() {
   $.ajax({
     type: 'POST',
     accepts: 'application/json',
-    url: uri,
+    url: url,
     contentType: 'application/json',
     data: JSON.stringify(item),
     error: function(jqXHR, textStatus, errorThrown) {
@@ -88,7 +88,7 @@ function addItem() {
 
 function deleteItem(id) {
   $.ajax({
-    url: uri + '/' + id,
+    url: url + '/' + id,
     type: 'DELETE',
     success: function(result) {
       getData()
@@ -115,7 +115,7 @@ $('.my-form').on('submit', function() {
   }
 
   $.ajax({
-    url: uri + '/' + $('#edit-id').val(),
+    url: url + '/' + $('#edit-id').val(),
     type: 'PUT',
     accepts: 'application/json',
     contentType: 'application/json',
